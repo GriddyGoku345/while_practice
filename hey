@@ -1,0 +1,22 @@
+#Isaac Bissonette
+#12/10/24
+
+# keep_looping = True
+# toppings = []
+
+# while keep_looping:
+#     top = input('Enter a topping for the pizza: ')
+#     if top == quit:
+#         break
+#     else:
+#         print('I\'ll add that to your pizza')
+#         toppings.append(top)
+
+checking = True
+
+while checking:
+    age = input('enter your age:')
+
+    if age.isdigit():
+        age = int(age)
+        
